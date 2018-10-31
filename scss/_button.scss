@@ -1,0 +1,224 @@
+/* Main Button Area css
+============================================================================================ */
+.main_btn{
+	display: inline-block;
+	background: $baseColor;
+	padding: 0px 35px;
+	color: #fff;
+	font-family: $hee;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 38px;
+	border: 1px solid $baseColor;
+	border-radius: 0px;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+	cursor: pointer;
+	@include transition;
+	text-transform: uppercase;
+	&:hover{
+		background: transparent;
+        color: $baseColor;
+	}
+}
+.main_btn2{
+	display: inline-block;
+	background: $baseColor;
+	padding: 0px 32px;
+	color: #fff;
+	font-family: $rob;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 38px;
+	border-radius: 0px;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+	border: 1px solid $baseColor;
+	cursor: pointer;
+	@include transition;
+	&:hover{
+		background: transparent;
+		color: $baseColor;
+	}
+}
+.submit_btn{
+	width: auto;
+	display: inline-block;
+	background: $baseColor;
+	padding: 0px 50px;
+	color: #fff;
+	font-family: $rob;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 50px;
+	border: 1px solid $baseColor;
+	border-radius: 5px;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+	cursor: pointer;
+	@include transition;
+	&:hover{
+		background: transparent;
+		color: $baseColor;
+	}
+}
+
+.white_btn{
+	display: inline-block;
+	background: #f9f9ff;
+	padding: 0px 50px;
+	color: $dip;
+	font-family: $rob;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 50px;
+	border-radius: 0px;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+	cursor: pointer;
+	@include transition;
+	&:hover{
+		background: $baseColor;
+		color: #fff;
+	}
+}
+.banner_btn {
+    display: inline-block;
+    background: $baseColor;
+    color: #fff;
+    font-family: $rob;
+    width: 148px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 48px;
+    outline: none !important;
+    text-align: center;
+    cursor: pointer;
+    @include transition;
+    /*3D button*/
+    background-image: linear-gradient(bottom, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(79,142,191)), color-stop(1, rgb(102,166,214)) );
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-shadow: 0px -1px 0px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 7px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4);
+    -moz-box-shadow: 0px 7px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4);
+    box-shadow: 0px 7px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4);
+
+    &:hover {
+        color: #fff;
+        -webkit-box-shadow: 0px 6px 0px #2b638f, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+        -moz-box-shadow: 0px 6px 0px #2b638f, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+        box-shadow: 0px 6px 0px #2b638f, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+        -webkit-transform: translate(0, 2px);
+        -moz-transform: translate(0, 2px);
+        transform: translate(0, 2px);
+    }
+
+    &:active {
+        color: #fff;
+        -webkit-box-shadow: 0px 4px 0px #2b638f, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+        -moz-box-shadow: 0px 4px 0px #2b638f, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+        box-shadow: 0px 4px 0px #2b638f, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+        background-image: linear-gradient(bottom, rgb(88,154,204) 0%, rgb(90,150,199) 100%);
+        background-image: -o-linear-gradient(bottom, rgb(88,154,204) 0%, rgb(90,150,199) 100%);
+        background-image: -moz-linear-gradient(bottom, rgb(88,154,204) 0%, rgb(90,150,199) 100%);
+        background-image: -webkit-linear-gradient(bottom, rgb(88,154,204) 0%, rgb(90,150,199) 100%);
+        background-image: -ms-linear-gradient(bottom, rgb(88,154,204) 0%, rgb(90,150,199) 100%);
+        background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(88,154,204)), color-stop(1, rgb(90,150,199)) );
+        -webkit-transform: translate(0, 4px);
+        -moz-transform: translate(0, 4px);
+        transform: translate(0, 4px);
+    }
+}
+
+.banner_btn2{
+	display: inline-block;
+	background: rgba(255, 255, 255, 1);
+	color: $dip;
+	font-family: $rob;
+	width: 134px;
+	font-size: 14px;
+	font-weight: 500;
+	border: 1px solid rgba(255, 255, 255, .50);
+	line-height: 48px;
+	border-radius: 3px;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+	cursor: pointer;
+	@include transition;
+	&:hover{
+		background: rgba(255, 255, 255, .1);
+		color: #fff;
+		border-color: #fff;
+	}
+}
+.white_bg_btn{
+	background: #fff;
+	display: inline-block;
+	color: $dip;
+	line-height: 40px;
+	padding: 0px 28px;
+	font-size: 14px;
+	font-family: $rob;
+	font-weight: 500;
+	text-transform: uppercase;
+	@include transition;
+	border: none;
+	&:hover{
+		background: $baseColor;
+		color: #fff;
+	}
+}
+.blog_btn{
+	border: 1px solid #eeeeee;
+	background: #f9f9ff;
+	padding: 0px 32px;
+	font-size: 13px;
+	font-weight: 500;
+	font-family: $rob;
+	color: $dip;
+	line-height: 34px;
+	display: inline-block;
+	&:hover{
+		background: $baseColor;
+		border-color: $baseColor;
+		color: #fff;
+	}
+}
+
+.tickets_btn{
+	display: inline-block;
+	background: rgba(255, 255, 255, .10);
+	color: #fff;
+	font-family: $rob;
+	width: 134px;
+	font-size: 13px;
+	font-weight: 500;
+	border: 1px solid rgba(255, 255, 255, .50);
+	line-height: 48px;
+	border-radius: 3px;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+	cursor: pointer;
+	@include transition;
+	&:hover{
+		background: #fff;
+		color: $dip;
+		border-color: #fff;
+	}
+}
+
+/* End Main Button Area css
+============================================================================================ */
